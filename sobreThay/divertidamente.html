@@ -1,0 +1,196 @@
+<html>
+<head> <!-- cabeca do site -->
+    <meta charset="UTF-8">
+    <title>divertidamente</title>  <!-- titulo da pagina -->
+    <link rel="icon" type="image/x-icon" href="imagens/Th__2_-removebg-preview.png">
+    <!-- link do bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <!-- linl de icones bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+   
+    <style>
+        #pf {
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg,  rgba(2,0,36,1) 0%, 
+                                            rgba(6,95,90,0.37) 0%,
+                                            rgba(12,77,100,0.37) 16%, 
+                                            rgba(8,32,109,0.37) 34%,
+                                            rgba(108,8,75,0.36738445378151263) 55%, 
+                                            rgba(121,9,9,0.37) 79%,
+                                            rgba(255,235,0,0.36738445378151263) 100%);
+                                            background-size: 300% 300%;
+      
+        animation: fundo 5s infinite linear;
+      }
+      
+        @keyframes fundo {
+            0% {
+                background-position: 0 0; 
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0 0;
+            }
+        }
+        .card{
+            --bs-card-border-width: 0px;
+            
+            /* --bs-card-bg:rgba(255, 255, 255, 0.171)  !important; */
+        }
+        /* medo */
+        #card1{
+            margin-left: 25%;
+            --bs-card-border-width: 0px;
+            
+            --bs-card-bg:rgba(189, 27, 162, 0.466)  !important;
+        }
+        /* raiva */
+        #card2{
+            --bs-card-border-width: 0px;
+            
+            --bs-card-bg:rgba(238, 69, 69, 0.466)  !important;
+        }
+        /* alegria */
+        #card3{
+            --bs-card-border-width: 0px;
+            
+            --bs-card-bg:rgba(218, 214, 19, 0.404)  !important;
+        }
+        /* nojo */
+        #card4{
+            --bs-card-border-width: 0px;
+            
+            --bs-card-bg:rgba(128, 219, 140, 0.404)  !important;
+        }
+        /* tristeza */
+        #card5{
+            --bs-card-border-width: 0px;
+            
+            --bs-card-bg:rgba(166, 202, 250, 0.404)  !important;
+        }
+        .row{
+            margin-left: 10px!important;
+        }
+        
+    </style>
+</head>
+<body id="pf"> <!-- corpo do site -->
+
+    <div class=" container" >  
+        
+        <h1 class="mt-3 text-center">Emoções</h1>
+        <br>
+        <div class="row offset-md-3 ">
+            <!-- 1 -->
+            <div class="card mb-3 p-2" id="card1" style="max-width: 540px;">
+                <div class="row g-0"> 
+                    <div class="col-md-4">
+                        <img src="imagens/medo.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="text-center">Medo </h5>
+                        <br>
+                        <audio controls class="mb-2 col-12">
+                            <source src="audio/É Osso - Jovem Dionisio(MP3_70K).mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <div class="row grid gap-4">
+        <!-- 2 -->
+        <div class="card mb-3 p-2" id="card2" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imagens/raiva.jpg" class="img-fluid rounded-start mt-4" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="text-center">Raiva </h5>
+                    <br>
+                    <audio controls class="mb-2 col-12">
+                        <source src="audio/Hotelo - Lavando Louça (clipe cover by_ Taína Carvalho)(MP3_128K).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3 -->
+        <div class="card mb-3 p-2 " id="card3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imagens/max_alegria.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="text-center">Alegria</h5>
+                    <br>
+                    <audio controls class="mb-2 col-12">
+                        <source src="audio/7 . FBC _ VHOOR ft. Djair Voz Cristalina - Delírios(MP3_128K).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                </div>
+            </div>
+        </div>
+    <!-- 4-->
+        <div class="card mb-3 p-2 " id="card4" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imagens/nojo.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="text-center">Nojo</h5>
+                    <br>
+                    <audio controls class="mb-2 col-12">
+                        <source src="audio/Crystill - Nojo (prod. Joken x Keyd)(MP3_70K).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- 5-->
+        <div class="card mb-3 p-2 " id="card5" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="imagens/tristeza.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="text-center">Tristeza</h5>
+                    <br>
+                    <audio controls class="mb-2 col-12">
+                        <source src="audio/Shiloh Dynasty _ CuBox - Losing Interest (Lyrics)(MP3_70K).mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+                </div>
+            </div>
+        </div>
+      </div>
+           
+
+      <!-- botoes -->
+      <div class="text-center mt-3">
+        <!-- anterior -->
+        <button type="submit" class="btn btn-dark" >
+          <a href="entrevista.html" class="link-light">
+            <i class="bi bi-arrow-left"></i>
+          </a>
+      </button>
+      <!-- proximo -->
+      <button type="submit" class="btn btn-dark" >
+        <a href="fim.html" class="link-light">
+          <i class="bi bi-arrow-right"></i>
+        </a>
+    </button>
+  
+  </div>
+</body>
+</html>
